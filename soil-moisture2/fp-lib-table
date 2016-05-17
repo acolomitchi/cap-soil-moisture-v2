@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name trimpot-cermet-btype)(type KiCad)(uri "$(KIPRJMOD)/libs/trimpot-cermet-btype.pretty")(options "")(descr ""))
+  (lib (name colo-termblocks)(type KiCad)(uri "$(KIPRJMOD)/libs/colo-termblocks.pretty")(options "")(descr ""))
+)

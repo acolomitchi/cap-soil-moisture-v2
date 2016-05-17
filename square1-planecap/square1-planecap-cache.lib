@@ -1,0 +1,45 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# CONN_1
+#
+DEF ~CONN_1 P 0 30 N N 1 F N
+F0 "P" 80 0 40 H V L CNN
+F1 "CONN_1" 0 55 30 H I C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+C 0 0 31 0 1 0 N
+P 2 0 1 0  -30 0  -50 0 N
+X 1 1 -150 0 100 R 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
+# GND-RESCUE-square1-planecap
+#
+DEF ~GND-RESCUE-square1-planecap #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 0 30 H I C CNN
+F1 "GND-RESCUE-square1-planecap" 0 -70 30 H I C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+P 4 0 1 0  -50 0  0 -50  50 0  -50 0 N
+X GND 1 0 0 0 U 30 30 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# VCC
+#
+DEF VCC #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "VCC" 0 150 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+C 0 75 25 0 1 0 N
+P 2 0 1 0  0 0  0 50 N
+X VCC 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+#End Library

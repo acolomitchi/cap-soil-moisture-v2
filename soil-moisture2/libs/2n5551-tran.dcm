@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2N5551
+D 160 Vce, 600mA Ic, NPN, General purpose amplifier, TO-92
+K 2N5551 NPN General Amplifier Transistor TO-92
+F https://www.fairchildsemi.com/datasheets/MM/MMBT5551.pdf
+$ENDCMP
+#
+$CMP BC413
+D 160 Vce, 600mA Ic, NPN, General purpose amplifier, TO-92
+K 2N5551 NPN Transistor
+F https://www.fairchildsemi.com/datasheets/MM/MMBT5551.pdf
+$ENDCMP
+#
+#End Doc Library
