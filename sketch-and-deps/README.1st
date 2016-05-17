@@ -1,0 +1,10 @@
+Before compiling the scketch, you'll need to install the two libraries from the ./libs
+
+- FreqCounter - Created by Martin Nawrath, KHM Lab3, Dec. 2008, Released into the public domain.
+http://interface.khm.de/index.php/lab/interfaces-advanced/arduino-frequency-counter-library/
+
+- LowPower - https://github.com/rocketscream/Low-Power
+Has some adjustments to make the library compile on ATMEGA168
+See http://www.rocketscream.com/blog/forums/topic/sleep_mode_ext_standby-not-declared-on-atmega168/
+
+When I'll have a bit of time, I'll try to codedoc the sketch, it's a promise.
